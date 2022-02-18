@@ -116,7 +116,7 @@ def get_video_name():
 
 
 if __name__ == "__main__":
-    download_url_list = 'https://my.kirtijpl5.workers.dev/0:/web/The.Silent.Sea/s1/1080p/The.Silent.Sea.S01E08.the.Silent.Sea.1080p.NF.WEB-DL.DDP5.1.Atmos.x264.mkv'
+    download_url_list = 'https://my.raziyajpl115335.workers.dev/0:/web/Goblin.The.Lonely.and.Great.God/s1/480p/Goblin.The.Lonely.and.Great.God.S01.E09.Hindi.480p.mkv'
     youtube = authentication()
     download_video_series(download_url_list)
     time.sleep(1)
