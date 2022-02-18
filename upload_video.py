@@ -120,7 +120,8 @@ if __name__ == "__main__":
     youtube = authentication()
     download_video_series(download_url_list)
     time.sleep(1)
-    upload_video(youtube, "title")
+    title = download_url_list[download_url_list.rfind('/')+1:]
+    upload_video(youtube, title)
 
     # movie_links = download_url_list.split("<$>")
 
